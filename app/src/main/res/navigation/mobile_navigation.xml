@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.chessapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.chessapp.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_nav_map_to_place_description"
+            app:destination="@id/place_description" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_clubs"
+        android:name="com.example.chessapp.ui.placeslist.clubs.PlacesListFragment"
+        android:label="@string/menu_clubs"
+        tools:layout="@layout/fragment_empty_recycle_view" >
+        <action
+            android:id="@+id/action_nav_clubs_to_place_description"
+            app:destination="@id/place_description" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cafes"
+        android:name="com.example.chessapp.ui.placeslist.cafes.PlacesListFragment"
+        android:label="@string/menu_cafes"
+        tools:layout="@layout/fragment_empty_recycle_view" >
+        <action
+            android:id="@+id/action_nav_cafes_to_place_description"
+            app:destination="@id/place_description" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_outdoors"
+        android:name="com.example.chessapp.ui.placeslist.outdoors.PlacesListFragment"
+        android:label="@string/menu_outdoors"
+        tools:layout="@layout/fragment_empty_recycle_view" >
+        <action
+            android:id="@+id/action_nav_outdoors_to_place_description"
+            app:destination="@id/place_description" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.chessapp.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_puzzles"
+        android:name="com.example.chessapp.ui.puzzles.PuzzlesListFragment"
+        android:label="@string/menu_puzzles"
+        tools:layout="@layout/fragment_empty_recycle_view" />
+    <fragment
+        android:id="@+id/nav_gps"
+        android:name="com.example.chessapp.ui.gps.GpsFragment"
+        android:label="@string/menu_gps"
+        tools:layout="@layout/fragment_gps" />
+    <fragment
+        android:id="@+id/nav_bonus"
+        android:name="com.example.chessapp.ui.bonus.BonusListFragment"
+        android:label="@string/menu_bonus"
+        tools:layout="@layout/fragment_empty_recycle_view" />
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.example.chessapp.ui.admin.AdminFragment"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment android:id="@+id/place_description"
+        android:name="com.example.chessapp.ui.placedesc.PlaceDescriptionFragment"
+        android:label="@string/menu_place_description"
+        tools:layout="@layout/fragment_empty_recycle_view"
+        >
+        <action
+            android:id="@+id/action_place_description_to_nav_outdoors"
+            app:destination="@id/nav_outdoors" />
+        <action
+            android:id="@+id/action_place_description_to_nav_cafes"
+            app:destination="@id/nav_cafes" />
+        <action
+            android:id="@+id/action_place_description_to_nav_clubs"
+            app:destination="@id/nav_clubs" />
+        <action
+            android:id="@+id/action_place_description_to_nav_map2"
+            app:destination="@id/nav_map" />
+    </fragment>
+
+</navigation>

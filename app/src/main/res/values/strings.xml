@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">ChessAppGo</string>
+    <string name="app_version">version 1.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Welcome</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_clubs">Clubs</string>
+    <string name="menu_cafes">Cafes</string>
+    <string name="menu_outdoors">Outdoors</string>
+    <string name="menu_history">History</string>
+    <string name="menu_puzzles">Puzzles</string>
+    <string name="menu_gps">GPS</string>
+    <string name="menu_bonus">Bonus</string>
+    <string name="menu_admin">Admin</string>
+    <string name="menu_place_description">Place Info</string>
+
+    <string name="bnt_open_solution">Solution</string>
+    <string name="bnt_hide_solution">Hide</string>
+    <string name="puzzles_head_information">All puzzles from all chess places are listed here. Have fun solving!</string>
+    <string name="puzzles_head_information_left">Chess notation:\n\nN - Knight\nB - Bishop\nR - Rook\nQ - Queen\nK - King \n\nTitles:\n\nGM - Grandmaster\nIM - International Master\nFM - FIDE Master</string>
+    <string name="puzzles_head_information_right">! - good move\n!! - very good move\n+- - white wins\n+= - white is better\n=  - equal\n?  - bad move\n?? - very bad move\n+  - check\n#  - checkmate</string>
+    <string name="bonus_head_information">Here are bonus etudes.\nThe more places you visit, the more bonus tasks are shown.\nThey are the most beautiful etudes!</string>
+    <string name="admin_head_information">Here is the admin page. You can get premium account to quickly mark all clubs, cafes, outdoors as visited and you mark places by radius. This saves you the time of running into all chess places and you automatically get a bonus blocked out.</string>
+
+
+    <string name="bnt_admin_show_clubs">All Clubs</string>
+    <string name="bnt_admin_show_outdoors">All Outdoors</string>
+    <string name="bnt_admin_show_cafes">All Cafes</string>
+    <string name="bnt_admin_reset_all">Clear All</string>
+    <string name="bnt_admin_reset_radius">Select Radius</string>
+    <string name="bnt_admin_logout">Logout</string>
+    <string name="bnt_admin_login">Login</string>
+    <string name="admin_you_are_admin">You are Admin!</string>
+    <string name="admin_you_are_user">You have not admin right!</string>
+    <string name="admin_cannot_get_location">Cannot Get Location!\nCheck GPS Settings</string>
+    <string name="admin_success">Success!</string>
+
+
+    <string name="bnt_gps_on">Enable GPS</string>
+    <string name="bnt_gps_off">Disable GPS</string>
+
+    <string name="gps_disable_text">GPS is disabled</string>
+    <string name="gps_enable_text">GPS is enabled</string>
+
+    <string name="btn_map_add_place">Mark As Visited</string>
+
+
+    <string name="history_top">Chess is a game for people\nof all ages.</string>
+    <string name="history_body">Playing chess from childhood contributes to the improvement of academic performance and the harmonious development of the individual. They develop memory, logical thinking, improve concentration, teach to analyze and systematize large amounts of information; encourage creativity, ingenuity and the development of imagination, bring up willpower and the desire to achieve the goal.</string>
+
+    <string name="history_head_citate"><i>“The skills learned at the chessboard will be useful to you in life. No one will regret the time given to Chess, because it will help in any profession.”</i>\n\n<b>Tigran Petrosyan,\n World Chess Champion</b></string>
+    <string name="history_body1">Statement about the chess\nof world champions.</string>
+
+
+    <string name="history_willam1"><b>Wilhelm Steinitz</b> (1836-1900), World Chess Champion 1886-1894, Austria-Hungary, USA</string>
+    <string name="history_willam2">“Chess is not for the faint-hearted“</string>
+
+    <string name="history_emanuel1"><b>Emanuel Lasker</b> (1868–1941), World Chess Champion 1894–1921, German Empire</string>
+    <string name="history_emanuel2">“Without mistakes, there can be no brilliant victories”</string>
+
+    <string name="text_home_up">Hello!\nYou are welcomed by the app\n"Chess Places GO"</string>
+    <string name="text_home_center">The app will show you all the chess places in Munich and its surroundings (clubs, cafes, outdoor places). The app will help you find a chess club that suits your level of play. You can also enjoy solving chess problems from the best games of Munich chess players! Visit chess places and unlock the bonus!</string>
+    <string name="text_home_bottom">Designed by Irina Krivoborodova in 2022</string>
+    <string name="wrong_password">Wrong Password</string>
+
+    <string name="bonus_extra_text">The best chess books\n1. "Bobby Fischer teaches you how to play chess" - Robert Fischer\n2. "Chess game textbook" - Emanuel Lasker\n3. "My system" - Aron Nimzowitsch\n4. "Endgame Tutorial" - Mark Dvoretsky\n5. "My great predecessors" - Garry Kasparov\n\nGrandmaster`s advice\n1. In the opening, a chess player must develop all the pieces, fight for the center, castling\n2. In the middlegame, a chess player must make a plan (3-4 moves ahead) and follow it.\nBest plan: active play (pawn advances, regrouping of pieces and exchanges)\n3. In the endgame, the strength of the king increases\n\nThe best chess platforms on the Internet \nhttps://lichess.org \nhttps://www.chess.com \n</string>
+    <string name="admin_radius_hint">500 m</string>
+    <string name="person_head_title_down">Statement about the chess\n of world champions.</string>
+    <string name="place_5_players">5 strongest chess players</string>
+
+    <string-array name="spinnerItems">
+        <item>500 m</item>
+        <item>1 km</item>
+        <item>3 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+    </string-array>
+
+</resources>
